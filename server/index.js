@@ -8,7 +8,7 @@ const express = require('express'),
 //allow cross-origin requets
 app.use(cors())
 
-mongoose.connect("mongodb://alsong:test123@ds042898.mlab.com:42898/graphql_demo")
+mongoose.connect("")
 mongoose.connection.once('open', () => {
     console.log('Connected to Database')
 })
